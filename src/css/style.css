@@ -164,7 +164,7 @@ nav {
   width: 350px;
 }
 .main {
-  padding: 140px 0px 140px 0px;
+  padding: 140px 0px 0px 0px;
 }
 .tit {
   font-size: 48px;
@@ -396,10 +396,15 @@ nav {
 .words {
   display: flex;
   flex-direction: column;
-  padding: 100px;
+
 }
 .navigation3 {
   width: 1140px;
+
+  ul{
+    display: flex;
+    gap: 20px;
+  }
 }
 .navigation3 ul li a {
   color: black;
@@ -410,11 +415,12 @@ nav {
 }
 .boxes {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  margin: 150px 150px;
-  padding: 100px;
+ padding-bottom: 100px;
+  padding-top: 100px;
   gap: 30px;
-  width: 850px;
+  width: 100%;
 }
 .boxes1 {
   width: 363px;
@@ -480,33 +486,50 @@ nav {
 }
 .navbar2 {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .b-123 {
   display: flex;
   gap: 30px;
   margin: 50px 100px;
+  justify-content: center;
 }
 .b1 {
-  display: flex;
-  flex-direction: column;
-  width: 390px;
-  height: 540px;
   background-image: url(assets/images/about_01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-.b2 {
   width: 390px;
   height: 540px;
+}
+.we{
+  display: flex;
+  flex-direction: column;
+  /* margin: 0 120px; */
+  width: 320px;
+  gap: 30px;
+}
+.text-box{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+
+}
+
+.b2 {
   background-image: url(assets/images/about_02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-size: 800px auto; */
-}
-.b3 {
   width: 390px;
   height: 540px;
+}
+.b3 {
   background-image: url(assets/images/about_03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 390px;
+  height: 540px;
+}
+.sometext{
+  width:50%;
 }
